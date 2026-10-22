@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-<html>
- <head>
+<head>
   <meta charset="utf-8">
-  <title> formularz Yaresko </title>
- </head>
- <body>
- Tutaj jest formularz<br><br>
+  <title>formularz Yaresko</title>
+</head>
+<body>
+  <table width="100%" border="0">
+    <tr>
+      
+      <td width="60%" valign="top">
+        Tutaj jest formularz<br><br>
 
- <center><h1>Zapisy do klubu programistów</h1></center>
+        <h1>Zapisy do klubu programistów</h1>
 
- Imię: <input name="imie" size="22"> Wiek: <input name="wiek" size="22"><br> 
- Nazwisko: <input name="Nazwisko" size="22"> Miasto: <select>
- 	<option value="gdansk">Gdańsk</option>
- 	<option value="gdynia">Gdynia</option>
- 	<option value="sopot">Sopot</option>=
- </select><br>
- E-mail: <input name="e-mail" size="22"> Ulica: <input name="ulica" size="22"><br><br>
+        Imię: <input name="imie" size="22"> Wiek: <input name="wiek" size="22"><br> 
+        Nazwisko: <input name="Nazwisko" size="22"> Miasto: 
+        <select>
+          <option value="gdansk">Gdańsk</option>
+          <option value="gdynia">Gdynia</option>
+          <option value="sopot">Sopot</option>
+        </select><br>
+        E-mail: <input name="e-mail" size="22"> Ulica: <input name="ulica" size="22"><br><br>
 
- Umiesz programować?<br>
- <input type="radio" name="pytanie" value="Tak"> Tak
- <input type="radio" name="pytanie" value="Nie"> Nie
- <input type="radio" name="pytanie" value="Troche"> Trochę <br><br>
+        Umiesz programować?<br>
+        <input type="radio" name="pytanie" value="Tak"> Tak
+        <input type="radio" name="pytanie" value="Nie"> Nie
+        <input type="radio" name="pytanie" value="Troche"> Trochę <br><br>
 
- Ulubiony język programowania:<br>
- <input type="radio" name="jezyk" value="C"> C/C++ <input type="radio" name="jezyk" value="C#"> C# <br>
- <input type="radio" name="jezyk" value="P"> Python <input type="radio" name="jezyk" value="Go"> Golang <br>
- <input type="radio" name="jezyk" value="Js"> Javascript &nbsp Inny:<input name="inny" size="22"> <br>
- <input type="radio" name="jezyk" value="Ja"> Java <br><br>
+        Ulubiony język programowania:<br>
+        <input type="radio" name="jezyk" value="C"> C/C++ <input type="radio" name="jezyk" value="C#"> C# <br>
+        <input type="radio" name="jezyk" value="P"> Python <input type="radio" name="jezyk" value="Go"> Golang <br>
+        <input type="radio" name="jezyk" value="Js"> Javascript &nbsp; Inny: <input name="inny" size="22"> <br>
+        <input type="radio" name="jezyk" value="Ja"> Java <br><br>
 
- Czy używasz AI do programowania?<br>
- <input type="radio" name="pytanie2" value="Tak"> Tak
- <input type="radio" name="pytanie2" value="Nie"> Nie
- <input type="radio" name="pytanie2" value="Cz"> Czasami
- <input type="radio" name="pytanie2" value="Nw"> Nie wiem<br><br>
- 
- <p align=right>
- Opowiedz nam, jak zacząłeś programować i dlaczego lubisż to robić<br>
- 
- <input name="Historia" size="100">
- </p>
- 
-  
- <A HREF="index.html"> Wróć </A> 
+        Czy używasz AI do programowania?<br>
+        <input type="radio" name="pytanie2" value="Tak"> Tak
+        <input type="radio" name="pytanie2" value="Nie"> Nie
+        <input type="radio" name="pytanie2" value="Cz"> Czasami
+        <input type="radio" name="pytanie2" value="Nw"> Nie wiem<br><br>
+      </td>
 
- </body>
+      <td width="1%" valign="top" align="right">
+	<br><br><br><br><br>
+        Opowiedz nam, jak zacząłeś programować i dlaczego lubisz to robić:<br><br>
+        
+        <textarea name="Historia" cols="60" rows="10"></textarea><br><br>
+        
+	<div align="left">
+		Ile lat programujesz?<br>
+		<input type="radio" name="pytanie3" value="Mnj"> Mniej niż 1 rok<br>
+        	<input type="radio" name="pytanie3" value="2"> 2<br>
+        	<input type="radio" name="pytanie3" value="3"> 3<br>
+        	<input type="radio" name="pytanie3" value="4"> 4<br>
+		<input type="radio" name="pytanie3" value="5"> 5+<br><br>
+	</div>
+
+        <a href="index.html">Wróć</a>
+      </td>
+
+    </tr>
+  </table>
+
+</body>
 </html>
